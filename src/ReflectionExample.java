@@ -11,7 +11,7 @@ public class ReflectionExample {
         Field nameField = monitorClass.getDeclaredField("name");
         nameField.setAccessible(true);
         System.out.println("Before = " + monitor.getName());
-        nameField.set(monitor, "Tell");
+        nameField.set(monitor, "Mell");
         System.out.println("After = " + monitor.getName());
 
     }
